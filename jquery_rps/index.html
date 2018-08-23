@@ -1,0 +1,42 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    </head>
+             <!---TITLE OF GAME--->
+    <body>
+      <div id="wrapper">
+            <h1 id="title">Rock, Paper, Scissors..Shoot!</h1>
+
+            <!---DIRECTIONS--->
+          <section>
+            <h3 class="directions">Choose an option below to play against the computer</h3>
+          </section>
+
+            <!---BUTTON CHOICES FOR USER--->
+         <section class = "button-container">
+            <button class="choice" id="rock">Rock</button>
+            <button class="choice" id="paper">Paper</button>
+            <button class="choice" id="scissors">Scissors</button>
+          </section>
+
+            <!---DISPLAY DIALOGUE MESSAGE 'WIN/LOSS/TIE'--->
+            <div class="message-section">
+          <div id ="message">First one to five's a winner!</div>
+            </div>
+            <!---SCOREBOARD USER V COMPUTER--->
+          <div id="scoreboard">
+            <h2>Score</h2>
+              <div class="score" span id="Wins"></span><br />Your Score</div>
+              <div class="score" span id="Ties"></span><br />Ties</div>
+              <div class="score" span id="Losses"></span><br />Computer Score </div>
+          </div>
+        </div>
+            <!---USER OPTION TO RESET GAME--->
+      <section>
+        <button class = "choice" id = "reset">Click to Reset Game</button>
+      </section>
+      <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js"></script>
+      <script src="main.js"></script>
+    </body>
+  </div>
+</html>
